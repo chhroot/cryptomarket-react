@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Switch, Routes, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 
 import { Navbar, Exchanges, Homepage, Cryptocurrencies, News, CryptoDetails} from './components';
@@ -34,9 +34,17 @@ const App = () => {
             </div>
           </Layout>
 
+        <div className='footer' >
+          <Typography.Title level={5} style={{color: 'white', textAlign: 'center'}}>
+            Chroot <br/>
+            Cryptomarket
+          </Typography.Title>
+          <Space>
+            <Link to="/">Home</Link>
+            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/news">News</Link>
+          </Space>
         </div>
-        <div className='footer'>
-          
         </div>
     </div>
   )
