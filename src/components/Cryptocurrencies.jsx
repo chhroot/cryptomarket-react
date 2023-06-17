@@ -12,7 +12,7 @@ const Cryptocurrencies = ({ simplified }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   // THIS IS A USEFUL SEARCH SNIPPET
-  
+
   useEffect(() => {
     
     const filteredData = cryptosList?.data?.coins.filter((coin) =>
@@ -26,12 +26,14 @@ const Cryptocurrencies = ({ simplified }) => {
   if (isFetching) return 'Loading...';
   return (
     <>
+    {!simplified && (
       <div className="search-crypto">
         <Input
           placeholder="Search Cryptocurrency"
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
+    )}
       <Row gutter={[32, 32]} className="crypto-card-container">
         {cryptos?.map((currency) => (
           <Col xs={24} sm={12} lg={6} className="crypto-card" key={currency.id}>

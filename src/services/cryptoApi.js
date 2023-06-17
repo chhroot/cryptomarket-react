@@ -1,4 +1,3 @@
-import create from '@ant-design/icons/lib/components/IconFont';
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 const cryptoApiHeaders = {
