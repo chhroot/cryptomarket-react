@@ -82,3 +82,4 @@ const News = ({ simplified }) => {
 };
 
 export default News;
+
