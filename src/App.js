@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Routes, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
+import { GithubOutlined } from '@ant-design/icons';
 
 import { Navbar, Exchanges, Homepage, Cryptocurrencies, News, CryptoDetails} from './components';
 import './App.css';
@@ -35,15 +36,9 @@ const App = () => {
           </Layout>
 
         <div className='footer' >
-          <Typography.Title level={5} style={{color: 'white', textAlign: 'center'}}>
-            Chroot <br/>
-            Cryptomarket
+          <Typography.Title level={4} style={{color: 'var(--green)', textAlign: 'center'}}>
+          <Link  style={{color: 'var(--green)', textAlign: 'center'}}><GithubOutlined /> Chhroot</Link> <br />
           </Typography.Title>
-          <Space>
-            <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
-            <Link to="/news">News</Link>
-          </Space>
         </div>
         </div>
     </div>

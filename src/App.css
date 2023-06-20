@@ -2,9 +2,10 @@
     --text-primary:#000;
     --bgPrimary:#fff;
    --bgSecondary: #F9F9F9;
-   --pink: #0071bd;
+   --pink: #50C878;
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
+   --green:  	#50C878
 }
 
 * {
@@ -23,9 +24,10 @@ a:hover{
 }
 
 .navbar{
-    flex: 0.2;
-    background-color: rgb(0, 21, 41);
+    flex: 0.2 1;
+    background-color: #f0f2f5;
 }
+
 
 .main{
     flex: 0.8;
@@ -55,8 +57,10 @@ a:hover{
     margin:0 0 0 15px;
 }
 .logo a{
-   color: white;
+   color: var(--green) !important;
 }
+
+
 .menu-control-container{
     display: none !important;
     position: absolute !important;
@@ -66,6 +70,10 @@ a:hover{
     background-color: var(--bgSecondary) !important;
     border: none !important;
 }
+
+.ant-menu-item-selected {
+    background-color: var(--green) !important;
+  }
 
 .loader{
     height: 81vh;
@@ -321,10 +329,10 @@ width: 70%;
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    color: #0071bd;
+    color: var(--green);
 }
 .chart-title{
-    color: #0071bd !important;
+    color: var(--green) !important;
 }
 .price-container{
     display: flex !important;
@@ -370,9 +378,10 @@ width: 70%;
 }
 
 .footer {
-    background-color: #001529;
+    background-color: #f0f2f5;
     display: flex;
     flex-direction: column;
     padding: 20px;
     align-items: center;
 }
+
