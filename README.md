@@ -1,7 +1,7 @@
 # Crypto Market <br/>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6200c65f-7300-4690-8413-5e188305fa51/deploy-status)](https://app.netlify.com/sites/cryptomarkt/deploys)
 
-A web application fully dedicated for cryptocurrencies. A comprehensive platform to track real-time prices of cryptocurrencies, stay updated with crypto-based news, and analyze market values using interactive charts. Make informed decisions and keep up-to-date with the dynamic world of cryptocurrencies.Stay updated with the latest prices of various cryptocurrencies. The app fetches real-time data to ensure that you have access to the most accurate and current information and also customize your news feed and market charts by filtering based on specific currencies. Allows you to focus on the cryptocurrencies that interest you the most and filter out irrelevant information. Visualize the market values of cryptocurrencies using dynamic charts.
+A web application fully dedicated for cryptocurrencies. A comprehensive platform to track real-time prices of cryptocurrencies, stay updated with crypto-based news, and analyze market values using interactive charts. Make informed decisions and keep up-to-date with the dynamic world of cryptocurrencies.Stay updated with the latest prices of various cryptocurrencies. The app fetches real-time data to ensure that you have access to the most accurate and current information and also customize your news feed and market charts by filtering based on specific currencies. Allows you to focus on the cryptocurrencies that interest you the most and filter out irrelevant information. Visualize the market values of cryptocurrencies using dynamic charts. Check out the ![LIVE DEMO](https://cryptomarkt.netlify.app/).
 
 ## Tech Stack
 
